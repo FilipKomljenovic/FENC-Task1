@@ -1,6 +1,5 @@
 package hr.fer.zemris.fuzzy;
 
-import hr.fer.zemris.fuzzy.domain.IDomain;
 import hr.fer.zemris.fuzzy.domain.impl.Domain;
 import hr.fer.zemris.fuzzy.domain.impl.DomainElement;
 import hr.fer.zemris.fuzzy.set.IFuzzySet;

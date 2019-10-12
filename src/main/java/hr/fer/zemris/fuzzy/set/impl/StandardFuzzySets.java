@@ -3,6 +3,7 @@ package hr.fer.zemris.fuzzy.set.impl;
 import hr.fer.zemris.fuzzy.set.IIntUnaryFunction;
 
 public class StandardFuzzySets {
+
     public IIntUnaryFunction lFunction(int alpha, int beta) {
         return x -> {
             if (x < alpha) return 1.0;

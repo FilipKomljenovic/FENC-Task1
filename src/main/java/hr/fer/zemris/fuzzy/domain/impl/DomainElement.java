@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.stream.IntStream;
 
 public class DomainElement {
+
     private final int[] elements;
 
     public DomainElement(int... elements) {

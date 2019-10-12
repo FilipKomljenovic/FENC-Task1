@@ -1,10 +1,8 @@
 package hr.fer.zemris.fuzzy;
 
 import hr.fer.zemris.fuzzy.domain.IDomain;
-import hr.fer.zemris.fuzzy.domain.impl.CompositeDomain;
 import hr.fer.zemris.fuzzy.domain.impl.Domain;
 import hr.fer.zemris.fuzzy.domain.impl.DomainElement;
-import hr.fer.zemris.fuzzy.domain.impl.SimpleDomain;
 import hr.fer.zemris.fuzzy.util.Debug;
 
 public class Domene {

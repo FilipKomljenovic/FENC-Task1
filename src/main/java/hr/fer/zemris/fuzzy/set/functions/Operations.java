@@ -5,6 +5,7 @@ import hr.fer.zemris.fuzzy.set.IFuzzySet;
 import hr.fer.zemris.fuzzy.set.impl.MutableFuzzySet;
 
 public class Operations {
+
     public static IFuzzySet unaryOperation(IFuzzySet fuzzySet, IUnaryFunction unaryFunction) {
         MutableFuzzySet mutableFuzzySet = new MutableFuzzySet(fuzzySet.getDomain());
         for (DomainElement domainElement : mutableFuzzySet.getDomain()) {

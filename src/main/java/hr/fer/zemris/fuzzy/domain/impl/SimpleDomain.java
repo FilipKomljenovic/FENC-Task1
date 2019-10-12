@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class SimpleDomain extends Domain {
+    
     private final int first;
     private final int last;
 

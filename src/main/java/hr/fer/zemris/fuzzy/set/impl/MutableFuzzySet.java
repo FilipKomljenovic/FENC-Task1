@@ -5,6 +5,7 @@ import hr.fer.zemris.fuzzy.domain.impl.DomainElement;
 import hr.fer.zemris.fuzzy.set.IFuzzySet;
 
 public class MutableFuzzySet implements IFuzzySet {
+
     private final double[] memberships;
     private final IDomain domain;
 
